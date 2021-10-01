@@ -107,11 +107,10 @@ p {
 }
 
 .logo {
-  max-height: 30px;
+  max-height: 40px;
 }
 nav {
-  padding: 10px 0;
-  background-color: var(--support-color);
+  padding: 20px 0;
 }
 nav ul {
   padding: 0;
@@ -190,7 +189,6 @@ footer .social-links a:hover {
   }
   .project-description {
     padding: 0;
-    text-align: center;
   }
   nav ul {
     list-style-position: inside;
