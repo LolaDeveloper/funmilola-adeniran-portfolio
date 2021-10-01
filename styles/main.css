@@ -2,6 +2,7 @@
   --branding-color: #6c63ff;
   --primary-color: #fbf2fc;
   --secondary-color: #f9f7fe;
+  --support-color: #d8c8da;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -11,7 +12,6 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -37,7 +37,7 @@ p {
 .hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 50px 20px;
+  padding: 80px 20px 10px;
 }
 
 .hero p {
@@ -46,6 +46,9 @@ p {
   font-weight: bold;
   margin: 0;
   color: #272142;
+}
+.nav-hero {
+  background-color: var(--support-color);
 }
 
 .hero-page {
@@ -107,7 +110,8 @@ p {
   max-height: 30px;
 }
 nav {
-  padding: 20px 0;
+  padding: 10px 0;
+  background-color: var(--support-color);
 }
 nav ul {
   padding: 0;
@@ -174,7 +178,12 @@ footer .social-links a:hover {
   h3 {
     font-size: 26px;
   }
-
+  .hero-page {
+    text-align: center;
+  }
+  .description-homepage {
+    padding: 0px;
+  }
   .content {
     text-align: center;
     padding: 0;
@@ -182,6 +191,9 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  nav ul {
+    list-style-position: inside;
   }
 
   nav a {
